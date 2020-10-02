@@ -3,19 +3,19 @@
     "coverage": {
       "/home/free-forum-9389/tic-tac-toe-rb-ruby-apply-000/lib/tic_tac_toe.rb": [
         1,
-        328,
+        315,
         null,
         null,
         1,
         null,
         1,
-        49,
-        302,
+        45,
+        289,
         null,
-        49,
+        45,
         26,
         null,
-        49,
+        45,
         null,
         null,
         1,
@@ -37,7 +37,7 @@
         null,
         null,
         1,
-        7,
+        11,
         6,
         null,
         null,
@@ -98,8 +98,8 @@
         null,
         12,
         3,
+        null,
         9,
-        5,
         null,
         null,
         null,
@@ -107,6 +107,6 @@
         null
       ]
     },
-    "timestamp": 1601601712
+    "timestamp": 1601601728
   }
 }
