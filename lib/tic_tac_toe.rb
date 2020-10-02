@@ -20,19 +20,19 @@ def full?(board)
 end
 
 def draw?(board)
-  if full?(board) && won?(board) == nil
+  if full?(board) && won?(board) == false
     true 
   end
 end
 
 def over?(board)
-  if won?(board) != nil || draw?(board)
+  if won?(board) != false || draw?(board)
     true
   end
 end
 
 def winner(board)
-  if won?(board) != nil
+  if won?(board) != false
     board[won?(board)[0]]
   end
 end
@@ -93,7 +93,7 @@ def play(board)
   end
   if draw?(board)
     puts "Cat's Game!"
-  elsif won?(board) != nil
+  elsif won?(board) != false
     puts "Congratulations #{winner(board)}!"
   end
 end
